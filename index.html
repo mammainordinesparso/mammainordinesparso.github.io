@@ -25,7 +25,7 @@ h2{font:600 22px/1.2 "Playfair Display",Georgia,serif;margin:0}
 .riga{display:flex;align-items:center;gap:12px;background:var(--paper);border:1px solid var(--line);border-radius:14px;padding:12px 14px;font-weight:600}
 .riga b{flex:0 0 30px;height:30px;border-radius:50%;display:grid;place-items:center;background:var(--sage-s);font-size:14px}
 .riga span{flex:1} .riga i{font-style:normal;font-size:22px;color:var(--blush)}
-.bacheca{background:#efe4d6;border-radius:18px;padding:16px;display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.x-bacheca{background:#efe4d6;border-radius:18px;padding:16px;display:grid;grid-template-columns:1fr 1fr;gap:12px}
 .foglio{border-radius:6px;padding:14px 10px 12px;min-height:84px;display:grid;align-content:end;gap:4px;font:600 15px/1.2 "Playfair Display",Georgia,serif;box-shadow:0 2px 6px rgba(74,58,48,.14);transform:rotate(-1.4deg)}
 .foglio:nth-child(2n){transform:rotate(1.3deg)} .foglio span{font-size:22px}
 .cream{background:var(--cream-s)} .sage{background:var(--sage-s)} .blush{background:var(--blush-s)} .mustard{background:var(--mustard-s)}
@@ -41,6 +41,11 @@ h2{font:600 22px/1.2 "Playfair Display",Georgia,serif;margin:0}
 .ptxt{display:grid;gap:2px;font-size:14px;min-width:0} .ptxt b{font-size:15px} .ptxt span{color:var(--muted)}
 .ptxt i{font-style:normal;font-weight:700;color:var(--blush);font-size:13px}
 .up{justify-self:end;font-size:13px;color:var(--muted)}
+.oggi{background:var(--paper);border:2px solid var(--blush);border-radius:20px;padding:18px 14px;display:grid;gap:10px}
+.oggi .prod{background:var(--cream-s)}
+.altri{display:grid;gap:8px} .altri summary{cursor:pointer;color:var(--muted);font-weight:700;padding:6px 4px;list-style:none}
+.altri[open] summary{margin-bottom:8px} .altri .riga{margin-bottom:8px}
+.altri-h{margin-top:10px;text-align:center;color:var(--muted)}
 footer{font-size:12.5px;color:var(--muted);text-align:center;display:grid;gap:6px}
 </style></head>
 <body><div class="w" id="top">
@@ -50,15 +55,25 @@ footer{font-size:12.5px;color:var(--muted);text-align:center;display:grid;gap:6p
   <span class="hand">sistemi piccoli per una casa che gira</span>
   <a class="ig" href="https://www.instagram.com/mamma_in_ordine_sparso/" data-goatcounter-click="instagram">@mamma_in_ordine_sparso</a>
 </header>
+<section class="oggi" id="oggi">
+  <span class="lbl">📍 dal post di oggi</span>
+  <h2>Tre regali per età che si usano davvero</h2>
+  <div class="prods"><a class="prod" href="https://www.amazon.it/dp/B001P4ZACS?tag=ordinesparso-21" target="_blank" rel="sponsored noopener" data-goatcounter-click="amazon-primo_frutteto" data-goatcounter-title="Primo frutteto HABA (2 anni)">
+  <span class="pimg"><img src="https://m.media-amazon.com/images/I/71zkipxGW8L._AC_SL400_.jpg" alt="Primo frutteto HABA (2 anni)" loading="lazy"></span>
+  <span class="ptxt"><b>Primo frutteto HABA (2 anni)</b><span>Il primo gioco da tavolo in cui si vince tutti insieme. Pezzi grandi, di legno.</span><i>Vedi su Amazon</i></span>
+</a><a class="prod" href="https://www.amazon.it/dp/B07Y94Y3JL?tag=ordinesparso-21" target="_blank" rel="sponsored noopener" data-goatcounter-click="amazon-uno_junior" data-goatcounter-title="UNO Junior (dai 3–4 anni)">
+  <span class="pimg"><img src="https://m.media-amazon.com/images/I/81X+33RmfvL._AC_SL400_.jpg" alt="UNO Junior (dai 3–4 anni)" loading="lazy"></span>
+  <span class="ptxt"><b>UNO Junior (dai 3–4 anni)</b><span>Il primo gioco di carte per giocare tutti insieme dopo cena.</span><i>Vedi su Amazon</i></span>
+</a><a class="prod" href="https://www.amazon.it/dp/B074KLYJ1P?tag=ordinesparso-21" target="_blank" rel="sponsored noopener" data-goatcounter-click="amazon-torcia_storie" data-goatcounter-title="torcia che proietta le fiabe (4 anni)">
+  <span class="pimg"><img src="https://m.media-amazon.com/images/I/71MI6Lyon5L._AC_SL400_.jpg" alt="torcia che proietta le fiabe (4 anni)" loading="lazy"></span>
+  <span class="ptxt"><b>Torcia che proietta le fiabe (4 anni)</b><span>Le storie sul muro prima di dormire. Va bene anche per il teatro delle ombre.</span><i>Vedi su Amazon</i></span>
+</a></div>
+</section>
 <a class="cta" href="https://mature-cookie-e62.notion.site/4090d6a9239081fa9788c46537ac9960" target="_blank" rel="noopener" data-goatcounter-click="scheda-settimana">🖨️ La scheda gratis di questa settimana<small>da stampare e attaccare al frigo</small></a>
 <div class="q">
   <h2>Cosa ti pesa di più oggi?</h2>
   <span class="hand">scegli, ti porto alla soluzione 👇</span>
-  <a class="riga" href="#regali" data-goatcounter-click="pesa-regali"><b>1</b><span>Non so cosa regalare a Natale</span><i>›</i></a><a class="riga" href="#borsa" data-goatcounter-click="pesa-borsa"><b>2</b><span>Quando si aspetta non so come tenerlo buono</span><i>›</i></a><a class="riga" href="#mattina" data-goatcounter-click="pesa-mattina"><b>3</b><span>Usciamo sempre di corsa la mattina</span><i>›</i></a><a class="riga" href="#cena" data-goatcounter-click="pesa-cena"><b>4</b><span>La cena la decido alle 19</span><i>›</i></a><a class="riga" href="#testa" data-goatcounter-click="pesa-testa"><b>5</b><span>Ho mille cose in testa</span><i>›</i></a><a class="riga" href="#bucato" data-goatcounter-click="pesa-bucato"><b>6</b><span>Il bucato non finisce mai</span><i>›</i></a><a class="riga" href="#emergenze" data-goatcounter-click="pesa-emergenze"><b>7</b><span>Quando serve qualcosa, non lo trovo mai</span><i>›</i></a><a class="riga" href="#gioco" data-goatcounter-click="pesa-gioco"><b>8</b><span>Il weekend con i bimbi mi spaventa</span><i>›</i></a>
-</div>
-<div class="q">
-  <h2>La bacheca di casa</h2>
-  <div class="bacheca"><a class="foglio blush" href="#regali" data-goatcounter-click="bacheca-regali"><span>🎁</span>Regali piccoli, per età</a><a class="foglio sage" href="#borsa" data-goatcounter-click="bacheca-borsa"><span>🎒</span>La borsa dei 10 minuti</a><a class="foglio cream" href="#mattina" data-goatcounter-click="bacheca-mattina"><span>☀️</span>La mattina</a><a class="foglio sage" href="#cena" data-goatcounter-click="bacheca-cena"><span>🥫</span>La scorta e la cena</a><a class="foglio blush" href="#testa" data-goatcounter-click="bacheca-testa"><span>🧠</span>La testa libera</a><a class="foglio mustard" href="#bucato" data-goatcounter-click="bacheca-bucato"><span>🧺</span>Bucato e armadio</a><a class="foglio cream" href="#emergenze" data-goatcounter-click="bacheca-emergenze"><span>🩹</span>Le emergenze</a><a class="foglio sage" href="#gioco" data-goatcounter-click="bacheca-gioco"><span>🎨</span>Si gioca con poco</a></div>
+  <a class="riga" href="#regali" data-goatcounter-click="pesa-regali"><b>1</b><span>Non so cosa regalare a Natale</span><i>›</i></a><a class="riga" href="#borsa" data-goatcounter-click="pesa-borsa"><b>2</b><span>Quando si aspetta non so come tenerlo buono</span><i>›</i></a><a class="riga" href="#mattina" data-goatcounter-click="pesa-mattina"><b>3</b><span>Usciamo sempre di corsa la mattina</span><i>›</i></a><details class="altri"><summary>Altre cose che pesano ›</summary><a class="riga" href="#cena" data-goatcounter-click="pesa-cena"><b>4</b><span>La cena la decido alle 19</span><i>›</i></a><a class="riga" href="#testa" data-goatcounter-click="pesa-testa"><b>5</b><span>Ho mille cose in testa</span><i>›</i></a><a class="riga" href="#bucato" data-goatcounter-click="pesa-bucato"><b>6</b><span>Il bucato non finisce mai</span><i>›</i></a><a class="riga" href="#emergenze" data-goatcounter-click="pesa-emergenze"><b>7</b><span>Quando serve qualcosa, non lo trovo mai</span><i>›</i></a><a class="riga" href="#gioco" data-goatcounter-click="pesa-gioco"><b>8</b><span>Il weekend con i bimbi mi spaventa</span><i>›</i></a></details>
 </div>
 <section class="sis blush" id="regali">
   <h2><span>🎁</span> Regali piccoli, per età</h2>
@@ -126,7 +141,9 @@ footer{font-size:12.5px;color:var(--muted);text-align:center;display:grid;gap:6p
   <span class="ptxt"><b>Appendiabiti dei bimbi</b><span>Il loro gancio, all&#x27;altezza giusta: la giacca la appendono da soli.</span><i>Vedi su Amazon</i></span>
 </a></div>
   <a class="up" href="#top">↑ torna su</a>
-</section><section class="sis sage" id="cena">
+</section>
+<h2 class="altri-h">Gli altri sistemi della casa</h2>
+<section class="sis sage" id="cena">
   <h2><span>🥫</span> La scorta e la cena</h2>
   <p class="fr">Una scorta fissa e un menu deciso una volta a settimana.</p>
   <div class="frees"><span class="lbl">gratis</span><a class="free" href="https://mature-cookie-e62.notion.site/4090d6a9239081fa9788c46537ac9960" target="_blank" rel="noopener" data-goatcounter-click="gratis-cena-0">🖨️ La scorta che salva la cena (da stampare)</a><a class="free" href="https://mature-cookie-e62.notion.site/4090d6a9239081338101d0c989550b57" target="_blank" rel="noopener" data-goatcounter-click="gratis-cena-1">🤖 Il menu della settimana con l&#x27;AI</a><a class="free" href="https://mature-cookie-e62.notion.site/3f70d6a923908196858ec30e526f49bc" target="_blank" rel="noopener" data-goatcounter-click="gratis-cena-2">🛒 Le scorte al prezzo più basso</a></div>
